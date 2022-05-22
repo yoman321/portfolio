@@ -1,10 +1,11 @@
 import styles from "./Layout.module.css";
-import Background from "./Background";
+import MainNavigation from './MainNavigation';
 
 function Layout(props) {
   return (
-    <div className={styles.Background}>
-      <div>{props.children}</div>
+    <div>
+        <MainNavigation/>
+      <div className={styles.main}>{props.children}</div>
     </div>
   );
 }
