@@ -1,0 +1,5 @@
+.card {
+  background-color: #2a2d2d;/*change color to #282c34 when done*/
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);/*remove when done with layering*/
+}
