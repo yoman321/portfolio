@@ -1,0 +1,52 @@
+.image {
+  /* justify-content: flex-start; */
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.image img {
+  width: 100%;
+  object-fit: contain;
+}
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 0 0 10rem 0;
+}
+.content {
+  display: flex;
+  margin: 1rem 1rem;
+  color: white;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.section p {
+  width: 75%;
+  margin: 0 0 0 2rem;
+}
+.main {
+  margin: 15rem auto;
+  width: 90%;
+  max-width: 40rem;
+  display: flex;
+  flex-direction: column;
+}
+.layout {
+  margin: 15rem auto;
+  width: 90%;
+  max-width: 40rem;
+  display: flex;
+  flex-direction: column;
+}
