@@ -1,0 +1,41 @@
+.main {
+  margin: 3rem 15rem 3rem;
+  width: 90%;
+  max-width: 40rem;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+.section {
+  margin: 0rem 1rem 0rem;
+}
+.content {
+  display: flex;
+}
+.actions {
+  margin: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  color: white;
+  border: 1px transparent;
+  background-color: transparent;
+  padding: 10px 40px;
+  transition-duration: 0.4s;
+  border-radius: 4px;
+}
+.actions button:hover {
+  color: #282c34;
+  background-color: #65928b;
+}
+.vl {
+  border-left: 2px solid white;
+  height: 23rem;
+}
+.text {
+  margin: 1rem;
+}
