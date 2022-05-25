@@ -21,9 +21,6 @@ function SkillsAndProjects() {
     setId(newId);
     console.log(id);
   }
-  function displayDescription(id) {
-    return;
-  }
   return (
     <div className={styles.main}>
       <SectionCard>
@@ -72,7 +69,7 @@ function SkillsAndProjects() {
             <div className={styles.vl} />
             <div className={styles.text}>
               {PROJECTS_DESCRIPTION.map(desiredId =>{
-                  if (desiredId.id == id){
+                  if (desiredId.id === id){
                     return <p key={desiredId.id}>{desiredId.description}</p>
                   }
               })}
