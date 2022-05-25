@@ -1,7 +1,29 @@
 import styles from "./SkillsAndProjects.module.css";
 import SectionCard from "../ui/SectionCard";
+import { useState } from "react";
+
+const PROJECTS_DESCRIPTION = [
+   {
+       id: 1,
+    description: "dasdfasdfasdfasdfaasdfasdfasdasdfasdfasdfasdffasdfasdasddasdfasdfasdfasdf\nasdfasdf\n",
+  },
+   {
+       id: 2,
+    description: "1234123412341234",
+  },
+];
 
 function SkillsAndProjects() {
+  const [id, setId] = useState(1);
+
+  function buttonHandler(newId) {
+    console.log(newId);
+    setId(newId);
+    console.log(id);
+  }
+  function displayDescription(id) {
+    return;
+  }
   return (
     <div className={styles.main}>
       <SectionCard>
@@ -31,13 +53,29 @@ function SkillsAndProjects() {
         <div className={styles.section}>
           <h1>Projects</h1>
           <div className={styles.content}>
-            <tr className={styles.actions}>
-              <td><button>Aim Trainer</button></td>
-              <td><button>Accident Simulator</button></td>
-            </tr>
-            <div className={styles.vl}/>
+            <table>
+              <tbody>
+                <tr className={styles.actions}>
+                  <td>
+                    <button onClick={() => buttonHandler(1)}>
+                      Aim Trainer
+                    </button>
+                  </td>
+                  <td>
+                    <button onClick={() => buttonHandler(2)}>
+                      Accident Simulator
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div className={styles.vl} />
             <div className={styles.text}>
-                <p>something</p>
+              {PROJECTS_DESCRIPTION.map(desiredId =>{
+                  if (desiredId.id == id){
+                    return <p key={desiredId.id}>{desiredId.description}</p>
+                  }
+              })}
             </div>
           </div>
         </div>

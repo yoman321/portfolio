@@ -8,7 +8,7 @@ function AboutMe() {
         <h1>About Me</h1>
         <p>
           dasfasdf asdf asdf asdf asdf asdf asdf asd fasdf asdf asdf asasd
-          fdasdf asdf asdf asdf asdf asdfasd fasd fasdf asdf asd fasdf asdf asdf
+          fdasdf asdf asdf asdf asdf asdfasd fasd fasdf asdf asd fasdf asdf asdfasdfasdfasdfasdfasdfasdfasasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf
         </p>
       </Card>
     </div>
