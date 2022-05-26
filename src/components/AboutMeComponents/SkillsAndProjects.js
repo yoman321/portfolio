@@ -5,7 +5,7 @@ import { useState } from "react";
 const PROJECTS_DESCRIPTION = [
    {
        id: 1,
-    description: "dasdfasdfasdfasdfaasdfasdfasdasdfasdfasdfasdffasdfasdasddasdfasdfasdfasdf\nasdfasdf\n",
+    description: "dasasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdaasdf asdf asdf asdf asdf f",
   },
    {
        id: 2,
@@ -47,7 +47,7 @@ function SkillsAndProjects() {
         </div>
       </SectionCard>
       <SectionCard>
-        <div className={styles.section}>
+        <div className={styles.sectionText}>
           <h1>Projects</h1>
           <div className={styles.content}>
             <table>
