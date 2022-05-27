@@ -7,7 +7,7 @@
 
 ## Current comments
 
-- add eslint vscode plugin
+- IMPORTANT: add eslint vscode extension
 - fix all errors
 - add prop checking with prop-types package (already installed)
 - change Games to Projects

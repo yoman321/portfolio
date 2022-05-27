@@ -3,17 +3,19 @@ import MainNavigation from "./MainNavigation";
 import styles from "./Layout.module.css";
 
 const propTypes = {
-  children: PropTypes.Node.isRequired,
+  children: PropTypes.node.isRequired,
 };
 
 const defaultPropTypes = {};
 
-const Layout = ({ children }) => (
-  <div className={styles.background}>
-    <MainNavigation />
-    {children}
-  </div>
-);
+const Layout = ({ children }) => {
+  return (
+    <div className={styles.background}>
+      <MainNavigation />
+      {children}
+    </div>
+  );
+};
 
 Layout.propTypes = propTypes;
 Layout.defaultPropTypes = defaultPropTypes;
