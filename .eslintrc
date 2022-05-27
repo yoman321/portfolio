@@ -1,6 +1,14 @@
 {
-    "extends": ["airbnb", "prettier"],
+    "extends": ["airbnb", "prettier","plugin:react/jsx-runtime"],
     "plugins": ["prettier"],
     "rules": {
+        "react/function-component-definition": [
+            "warn",
+            {
+                "namedComponents": "arrow-function",
+                "unnamedComponents": "arrow-function"
+            }
+        ],
+        "no-unused-vars": "warn",
     }
 }
