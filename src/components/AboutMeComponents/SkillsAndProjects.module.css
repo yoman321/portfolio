@@ -1,0 +1,52 @@
+.main {
+  margin: 10rem auto;
+  width: 90%;
+  color: white;
+  display:flex;
+  justify-content: center;
+}
+.section {
+  margin: 0rem 1rem 0rem;
+}
+.sectionText{
+  margin: 0rem 1rem 0rem;
+  max-width: 45rem;
+}
+.content {
+  display: flex;
+}
+.actions {
+  margin: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  color: white;
+  border: 1px transparent;
+  background-color: transparent;
+  padding: 20px 10px;
+  transition-duration: 0.4s;
+  border-radius: 4px;
+  width: 10rem;
+}
+.actions button:hover {
+  color: #282c34;
+  background-color: #65928b;
+}
+.vl {
+  border-left: 2px solid white;
+  height: 23rem;
+}
+.text {
+  margin: 1rem;
+  /* min-width: 23rem; */
+  /* overflow-wrap: break-word; */
+}
+.p {
+  white-space: initial;
+  /* max-width: 23rem;
+  max-height: 23rem; */
+}
