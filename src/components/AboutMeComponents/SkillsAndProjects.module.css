@@ -42,11 +42,7 @@
 }
 .text {
   margin: 1rem;
-  /* min-width: 23rem; */
-  /* overflow-wrap: break-word; */
 }
-.p {
-  white-space: initial;
-  /* max-width: 23rem;
-  max-height: 23rem; */
+.text p {
+  white-space: pre-line;
 }

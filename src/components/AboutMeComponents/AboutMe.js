@@ -13,15 +13,20 @@ function AboutMe() {
             Bioshock, Dark Souls, Far Cry and much more, programming started as
             a little hobby of mine. Never have I thought that this hobby would
             end up being my career, but here I am and ready to take on new
-            challenges every day.<br></br>I am a student computer science at
-            McGill University who is enthusiastic and unafraid to tackle
-            problems that are being thrown my way. I believe this mentality is
-            required in order for me to continue growing as a developer. While I
-            do not have any previous work experience, I believe that my
-            teamworking skills will be greatly beneficial to the next team I
-            join. In fact, I am convinced that teamwork and communication are
-            the key to any successful products. Do not hesitate to contact me. I
-            will be glad to get to know you.
+            challenges every day.
+          </p>
+          <p>
+            I am a student computer science at McGill University who is
+            enthusiastic and unafraid to tackle problems that are being thrown
+            my way. I believe this mentality is required in order for me to
+            continue growing as a developer. While I do not have any previous
+            work experience, I believe that my teamworking skills will be
+            greatly beneficial to the next team I join. In fact, I am convinced
+            that teamwork and communication are the key to any successful
+            products.
+          </p>
+          <p>
+            Do not hesitate to contact me. I will be glad to get to know you.
           </p>
         </section>
       </Card>
