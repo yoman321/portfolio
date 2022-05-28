@@ -6,13 +6,14 @@ const PROJECTS_DESCRIPTION = [
   {
     id: 1,
     description:
-      "This was my first attemp in creating a game in Java. The project is fully build in Java with JavaFX as the library and Scene Builder as the GUI tool. " +
-      "\n\n There are 3 difficulties for this game and the goal is click on as many targets as possible before they disappear",
+      "This was my first attempt in creating a game in Java. The project is fully building in Java with JavaFX as the library and Scene Builder as the GUI tool. " +
+      "\n\n There are 3 difficulties for this game and the goal is to click on as many targets as possible before they disappear",
   },
   {
     id: 2,
-    description: 'This was a Cegep project made in order to bring awareness to the dangers of collisions and falling objects in everyday life. It was built using Java, JavaFX as the library, and Scene Builder as a GUI tool.' +
-    '\n\n In this project, we have created 3 simulations: falling object, vehicles collision, and speeding vehicle.'
+    description:
+      "This was a Cegep project made in order to bring awareness to the dangers of collisions and falling objects in everyday life. It was built using Java, JavaFX as the library, and Scene Builder as a GUI tool." +
+      "\n\n In this project, we have created 3 simulations: falling object, vehicles collision, and speeding vehicle.",
   },
 ];
 
