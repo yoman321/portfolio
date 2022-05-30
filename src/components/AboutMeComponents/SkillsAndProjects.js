@@ -21,10 +21,9 @@ function SkillsAndProjects() {
   const [id, setId] = useState(1);
 
   function buttonHandler(newId) {
-    console.log(newId);
     setId(newId);
-    console.log(id);
   }
+  
   return (
     <div className={styles.main}>
       <SectionCard>

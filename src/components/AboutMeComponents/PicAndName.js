@@ -8,7 +8,7 @@ function PicAndName() {
       <Card>
         <div className={styles.layout}>
           <div className={styles.image}>
-            <img src={ProfilePic} alt="profile pic"></img>
+            <img src={ProfilePic} alt="profile pic"/>
           </div>
           <div className={styles.content}>
             <section className={styles.section}>
