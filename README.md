@@ -26,4 +26,4 @@
 
 ## Attributions
 
-- Pic found in the Page Not Found belongs to https://www.freepik.com/vectors/disconnect
+- Pic found in the Page Not Found belongs to JComp and be found at https://www.freepik.com/vectors/disconnect

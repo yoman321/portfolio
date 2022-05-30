@@ -19,6 +19,9 @@
   width: 100%;
   object-fit: contain;
 }
+.actions{
+  margin: 1rem;
+}
 .actions button {
   padding: 1rem;
   font: inherit;

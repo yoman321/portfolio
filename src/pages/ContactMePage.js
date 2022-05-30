@@ -1,6 +1,6 @@
-function ContactMePage(){
-    return (
-        <div>Contact me</div>
-    );
+import ContactMe from "../components/ContactMeComponents/ContactMe";
+
+function ContactMePage() {
+  return <ContactMe />;
 }
 export default ContactMePage;
