@@ -4,7 +4,7 @@ import SkillsAndProjects from "../components/AboutMeComponents/SkillsAndProjects
 import ContactMe from "../components/AboutMeComponents/ContactMe";
 import ToGames from '../components/AboutMeComponents/ToGames'
 
-function AboutMePage() {
+const AboutMePage = () => {
   return (
     <div>
       <PicAndName />

@@ -6,7 +6,7 @@ import ContactMe from "./pages/ContactMePage";
 import Games from "./pages/GamesPage";
 import PageNotFound from "./pages/PageNotFoundPage";
 
-function App() {
+const App = () => {
   return (
     <Layout>
       <Routes>

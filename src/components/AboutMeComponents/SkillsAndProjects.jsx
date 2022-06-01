@@ -17,7 +17,7 @@ const PROJECTS_DESCRIPTION = [
   },
 ];
 
-function SkillsAndProjects() {
+const SkillsAndProjects = () => {
   const [id, setId] = useState(1);
 
   function buttonHandler(newId) {

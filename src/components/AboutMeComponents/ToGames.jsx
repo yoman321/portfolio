@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 import styles from "./ToGames.module.css";
 import SectionCard from "../ui/SectionCard";
 
-function ToGames() {
+const ToGames = () => {
   return (
     <div className={styles.main}>
       <SectionCard>
-        <h1 className={styles.h1}> 
+        <h1 className={styles.h1}>
           While you&apos;re here... Let&apos;s play some games
         </h1>
         <div className={styles.actions}>
@@ -17,5 +17,7 @@ function ToGames() {
       </SectionCard>
     </div>
   );
-}
+};
+
+
 export default ToGames;

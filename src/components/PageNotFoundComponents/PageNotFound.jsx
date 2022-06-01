@@ -3,7 +3,7 @@ import SectionCard from "../ui/SectionCard";
 import styles from "./PageNotFound.module.css";
 import PageNotFoundPic from "../../images/PageNotFoundPic.jpg";
 
-function PageNotFound() {
+const PageNotFound = () => {
   return (
     <div className={styles.main}>
       <div className={styles.image}>

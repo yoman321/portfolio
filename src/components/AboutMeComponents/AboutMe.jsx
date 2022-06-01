@@ -1,7 +1,7 @@
 import styles from "./AboutMe.module.css";
 import Card from "../ui/Card";
 
-function AboutMe() {
+const AboutMe = () => {
   return (
     <div className={styles.main}>
       <Card>
@@ -16,14 +16,14 @@ function AboutMe() {
             challenges every day.
           </p>
           <p>
-            I am a student computer science at McGill University who is
+            I am a student in computer science at McGill University who is
             enthusiastic and unafraid to tackle problems that are being thrown
             my way. I believe this mentality is required in order for me to
             continue growing as a developer. While I do not have any previous
-            work experience, I believe that my teamworking skills will be
-            greatly beneficial to the next team I join. In fact, I am convinced
-            that teamwork and communication are the key to any successful
-            products.
+            work experience, I strive to learn more every day which is a mindset
+            that will greatly benefit any future team I join. This way of
+            thinking in addition to great teamwork and communication skills are
+            the key to releasing any successful products.
           </p>
           <p>
             Do not hesitate to contact me. I will be glad to get to know you.
@@ -32,5 +32,5 @@ function AboutMe() {
       </Card>
     </div>
   );
-}
+};
 export default AboutMe;

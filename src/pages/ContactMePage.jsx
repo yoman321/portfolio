@@ -1,6 +1,6 @@
 import ContactMe from "../components/ContactMeComponents/ContactMe";
 
-function ContactMePage() {
+const ContactMePage = () => {
   return <ContactMe />;
 }
 export default ContactMePage;

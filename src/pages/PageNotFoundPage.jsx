@@ -1,6 +1,6 @@
 import PageNotFound from '../components/PageNotFoundComponents/PageNotFound';
 
-function PageNotFoundPage(){
+const PageNotFoundPage = () => {
     return(
         <PageNotFound/>
     );

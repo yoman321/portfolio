@@ -3,7 +3,7 @@ import styles from "./ContactMe.module.css";
 import SectionCard from "../ui/SectionCard";
 
 
-function ContactMe() {
+const ContactMe = () => {
   return (
     <div className={styles.main}>
       <SectionCard>

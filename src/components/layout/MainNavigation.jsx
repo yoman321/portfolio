@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styles from "./MainNavigation.module.css";
 import Card from "../ui/Card";
 
-function MainNavigation() {
+const MainNavigation = () => {
   return (
     <Card>
       <header className={styles.header}>

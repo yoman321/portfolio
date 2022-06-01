@@ -2,7 +2,7 @@ import styles from "./PicAndName.module.css";
 import ProfilePic from "../../images/some-profile-pic.jpg";
 import Card from "../ui/Card";
 
-function PicAndName() {
+const PicAndName = () => {
   return (
     <div className={styles.main}>
       <Card>
