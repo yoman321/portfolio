@@ -20,6 +20,9 @@
 .section {
   padding: 1rem;
 }
+.section p{
+  text-align: justify;
+}
 .main {
   margin: 10rem auto;
   width: 90%;

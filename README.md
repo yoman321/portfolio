@@ -23,3 +23,7 @@
 - reorganize organize files (pages folder, test, webvitals, setuptests ...)
 - rename components to something better
 - use sass instead
+
+## Attributions
+
+- Pic found in the Page Not Found belongs to JComp and be found at https://www.freepik.com/vectors/disconnect

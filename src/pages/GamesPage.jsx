@@ -1,4 +1,4 @@
-function GamesPage(){
+const GamesPage = () => {
     return(
         <div>Games</div>
     );

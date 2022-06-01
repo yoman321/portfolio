@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styles from "./MainNavigation.module.css";
 import Card from "../ui/Card";
 
-function MainNavigation() {
+const MainNavigation = () => {
   return (
     <Card>
       <header className={styles.header}>
@@ -13,10 +13,10 @@ function MainNavigation() {
               <Link to="/">About Me</Link>
             </li>
             <li>
-              <Link to="/Games">Games</Link>
+              <Link to="/*">Games</Link>
             </li>
             <li>
-              <Link to="/ContactMe">Contact Me</Link>
+              <Link to="/contact-me">Contact Me</Link>
             </li>
           </ul>
         </nav>
