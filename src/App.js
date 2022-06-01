@@ -11,8 +11,8 @@ function App() {
     <Layout>
       <Routes>
         <Route path="/" element={<AboutMe />} />
-        <Route path="/ContactMe" element={<ContactMe />} />
-        <Route path="/Games" element={<Games />} />
+        <Route path="/contact-me" element={<ContactMe />} />
+        <Route path="/games" element={<Games />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </Layout>

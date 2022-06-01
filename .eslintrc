@@ -9,13 +9,13 @@
   "plugins": ["prettier"],
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    // "react/function-component-definition": [
-    //   "warn",
-    //   {
-    //     "namedComponents": "arrow-function",
-    //     "unnamedComponents": "arrow-function"
-    //   }
-    // ],
+    "react/function-component-definition": [
+      "warn",
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ],
     "react/jsx-no-undef": ["error", { "allowGlobals": true }],
     "arrow-body-style": ["warn", "as-needed"],
     "no-unused-vars": "warn"
