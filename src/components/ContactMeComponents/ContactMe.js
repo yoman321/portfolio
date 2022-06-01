@@ -7,7 +7,7 @@ function ContactMe() {
       <Card>
       <div className={styles.section}>
         <div className={styles.h1}>
-          <h1>Contact Form </h1>
+          <h1>Contact Form</h1>
         </div>
         <form className={styles.form}>
           <div className={styles.control}>

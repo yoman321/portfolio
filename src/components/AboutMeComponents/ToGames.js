@@ -11,7 +11,7 @@ function ToGames() {
         </h1>
         <div className={styles.actions}>
           <button type="button">
-            <Link to="Games">Play Games</Link>
+            <Link to="/*">Play Games</Link>
           </button>
         </div>
       </SectionCard>

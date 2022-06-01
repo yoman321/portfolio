@@ -17,7 +17,7 @@
       }
     ],
     "react/jsx-no-undef": ["error", { "allowGlobals": true }],
-    "arrow-body-style": ["warn", "as-needed"],
+    "arrow-body-style": ["warn", "always"],
     "no-unused-vars": "warn"
   }
 }
