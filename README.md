@@ -8,7 +8,7 @@
 - create good text (can still be improved)
 - IMPORTANT: add eslint vscode extension
 - add prop checking with prop-types package (already installed)
-- 
+ 
 ## Current comments
 
 - fix all errors
