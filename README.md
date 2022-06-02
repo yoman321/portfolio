@@ -4,15 +4,15 @@
 
 - add eslint
 - made example good component in src/components/layout/layout.jsx
-
+- change pathnames ContactMe => contact-me
+- create good text (can still be improved)
+- IMPORTANT: add eslint vscode extension
+- add prop checking with prop-types package (already installed)
+- 
 ## Current comments
 
-- IMPORTANT: add eslint vscode extension
 - fix all errors
-- add prop checking with prop-types package (already installed)
 - change Games to Projects
-- change pathnames ContactMe => contact-me
-- create good text
 - remove unnecessary sections
 
 ## Future Improvements
