@@ -1,5 +1,5 @@
 import styles from "./PicAndName.module.css";
-import ProfilePic from "../../images/some-profile-pic.jpg";
+import ProfilePic from "../../images/profile-pic.jpg";
 import Card from "../ui/Card";
 
 const PicAndName = () => {
@@ -8,7 +8,7 @@ const PicAndName = () => {
       <Card>
         <div className={styles.layout}>
           <div className={styles.image}>
-            <img src={ProfilePic} alt="profile pic"/>
+            <img src={ProfilePic} alt="profile pic" />
           </div>
           <div className={styles.content}>
             <section className={styles.section}>
@@ -20,5 +20,5 @@ const PicAndName = () => {
       </Card>
     </div>
   );
-}
+};
 export default PicAndName;
