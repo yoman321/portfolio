@@ -21,14 +21,18 @@ const Form = () => {
         "WK9aYYrLyZNtGEGbK"
       )
       .then(
-        (result) => {
+        () => {
           showSent(true);
-          setTimeout(() => showSent(false), 5000);
+          setTimeout(() => {
+            return showSent(false);
+          }, 5000);
           e.target.reset();
         },
-        (error) => {
+        () => {
           showError(true);
-          setTimeout(() => showError(false), 5000);
+          setTimeout(() => {
+            return showError(false);
+          }, 5000);
         }
       );
   };
