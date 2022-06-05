@@ -1,10 +1,3 @@
-.main {
-  margin: 7rem auto;
-  max-width: 44rem;
-  color: white;
-  padding: 1rem;
-  width: 90%;
-}
 .form {
   display: flex;
   flex-direction: column;
@@ -26,7 +19,15 @@
   margin-bottom: 0.5rem;
 }
 
-.control label textarea,
+.control label textarea {
+  padding: 0.5rem;
+  display: block;
+  font: Arial;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-top: 0.5rem;
+  width: 100%;
+}
 .control label input {
   display: block;
   font: inherit;
