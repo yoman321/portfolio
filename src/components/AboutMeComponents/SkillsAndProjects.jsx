@@ -23,7 +23,7 @@ const SkillsAndProjects = () => {
   function buttonHandler(newId) {
     setId(newId);
   }
-  
+
   return (
     <div className={styles.main}>
       <SectionCard>
@@ -57,12 +57,22 @@ const SkillsAndProjects = () => {
               <tbody>
                 <tr className={styles.actions}>
                   <td>
-                    <button type="button" onClick={() => buttonHandler(1)}>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        return buttonHandler(1);
+                      }}
+                    >
                       Aim Trainer
                     </button>
                   </td>
                   <td>
-                    <button type="button" onClick={() => buttonHandler(2)}>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        return buttonHandler(2);
+                      }}
+                    >
                       Accident Simulator
                     </button>
                   </td>
@@ -83,5 +93,5 @@ const SkillsAndProjects = () => {
       </SectionCard>
     </div>
   );
-}
+};
 export default SkillsAndProjects;

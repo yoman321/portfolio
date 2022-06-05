@@ -22,13 +22,11 @@ const Form = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
           showSent(true);
           setTimeout(() => showSent(false), 5000);
           e.target.reset();
         },
         (error) => {
-          console.log(error.text);
           showError(true);
           setTimeout(() => showError(false), 5000);
         }

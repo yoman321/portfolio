@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import SectionCard from "../ui/SectionCard";
 import styles from "./PageNotFound.module.css";
 import PageNotFoundPic from "../../images/PageNotFoundPic.jpg";
 
@@ -25,5 +24,5 @@ const PageNotFound = () => {
       </div>
     </div>
   );
-}
+};
 export default PageNotFound;
