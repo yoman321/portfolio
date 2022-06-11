@@ -12,7 +12,7 @@ const PicAndName = () => {
           </div>
           <div className={styles.content}>
             <section className={styles.section}>
-              <h1>Your Name</h1>
+              <h1>Philip Luo</h1>
               <p>Student in Computer Science at McGill University</p>
             </section>
           </div>
