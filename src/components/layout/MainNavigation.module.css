@@ -1,0 +1,28 @@
+.header{
+    width: 80%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #282c34;
+    padding: 0 10%;  
+}
+.header li{
+    margin-left: 3rem;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: baseline;
+}
+.header a{
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    color: white;
+    font-size: 3rem;    
+}

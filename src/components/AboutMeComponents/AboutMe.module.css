@@ -1,0 +1,43 @@
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 0 0 10rem 0;
+}
+.content {
+  display: flex;
+  margin: 1rem 1rem;
+  color: white;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.section p {
+  width: 75%;
+  margin: 0 0 0 2rem;
+}
+.main {
+  margin: 10rem auto;
+  width: 90%;
+  max-width: 40rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.layout {
+  margin: 15rem auto;
+  width: 90%;
+  max-width: 40rem;
+  display: flex;
+  flex-direction: column;
+}
