@@ -16,7 +16,7 @@ const ContactMe = () => {
         </div>
         <div className={styles.actions}>
             <button type='button'>
-                <Link to='/ContactMe'>Contact Me</Link>
+                <Link to='/contact-me'>Contact Me</Link>
             </button>
         </div>
       </SectionCard>
