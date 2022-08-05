@@ -20,10 +20,10 @@ const AboutMe = () => {
             enthusiastic and unafraid to tackle problems that are being thrown
             my way. I believe this mentality is required in order for me to
             continue growing as a developer. While I do not have any previous
-            work experience, I strive to learn more every day which is a mindset
-            that will greatly benefit any future team I join. This way of
-            thinking in addition to great teamwork and communication skills are
-            the key to releasing any successful products.
+            work experience, I strive to learn more every day in order to be a great addition 
+            to any future team I will join. This mindset
+            in addition to my great teamworking and communication skills are
+            the key to releasing any successful products in my opinion.
           </p>
           <p>
             Do not hesitate to contact me. I will be glad to get to know you.
