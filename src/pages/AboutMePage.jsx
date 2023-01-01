@@ -1,4 +1,5 @@
 import AboutMe from "../components/AboutMeComponents/AboutMe";
+import WorkExperience from '../components/AboutMeComponents/WorkExperience'
 import PicAndName from "../components/AboutMeComponents/PicAndName";
 import SkillsAndProjects from "../components/AboutMeComponents/SkillsAndProjects";
 import ContactMe from "../components/AboutMeComponents/ContactMe";
@@ -9,6 +10,7 @@ const AboutMePage = () => {
     <div>
       <PicAndName />
       <AboutMe />
+      <WorkExperience/>
       <SkillsAndProjects />
       <ContactMe />
       <ToGames/>

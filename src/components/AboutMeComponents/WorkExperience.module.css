@@ -1,0 +1,45 @@
+.main {
+  margin: 10rem auto;
+  width: 90%;
+  max-width: 50rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.section {
+  padding: 1rem;
+}
+.content {
+  display: flex;
+}
+.table {
+  margin: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.table button {
+  font: inherit;
+  cursor: pointer;
+  color: white;
+  border: 1px transparent;
+  background-color: transparent;
+  padding: 20px 10px;
+  transition-duration: 0.4s;
+  border-radius: 4px;
+  width: 10rem;
+}
+.table button:hover {
+  color: #282c34;
+  background-color: #65928b;
+}
+.sperating-line {
+  border-left: 2px solid white;
+  height: 23rem;
+}
+.text {
+  margin: 1rem;
+}
+.text p {
+  white-space: pre-line;
+}

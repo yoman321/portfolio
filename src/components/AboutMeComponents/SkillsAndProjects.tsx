@@ -32,18 +32,16 @@ const SkillsAndProjects = () => {
           <section>
             <h3>I have experience in these languages:</h3>
             <ul>
-              <li>HTML, CSS, Javascript</li>
-              <li>Typescript</li>
               <li>Java</li>
-              <li>Python</li>
-              <li>C#</li>
+              <li>JavaScript</li>
+              <li>python</li>
+              <li>c#</li>
+              <li>c++</li>
               <li>SQL</li>
             </ul>
             <h3>I have experience in these framework and tools: </h3>
             <ul>
               <li>React</li>
-              <li>Spring Boot</li>
-              <li>Jest</li>
               <li>JavaFX</li>
               <li>SceneBuilder</li>
               <li>Gradle</li>
