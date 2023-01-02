@@ -19,11 +19,10 @@ const AboutMe = () => {
             I am a student in computer science at McGill University who is
             enthusiastic and unafraid to tackle problems that are being thrown
             my way. I believe this mentality is required in order for me to
-            continue growing as a developer. While I do not have any previous
-            work experience, I strive to learn more every day in order to be a great addition 
-            to any future team I will join. This mindset
-            in addition to my great teamworking and communication skills are
-            the key to releasing any successful products in my opinion.
+            continue growing as a developer. I strive to learn more every day in order to be a great addition 
+            to any future team I will join. In my opinion, this mindset
+            and my great teamworking and communication skills are
+            the key to releasing any successful products.
           </p>
           <p>
             Do not hesitate to contact me. I will be glad to get to know you.
