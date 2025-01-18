@@ -1,5 +1,7 @@
 # Philip Luo Portfolio
 
+The website is live and hosted by Netlify: https://philip-luo.netlify.app/
+
 ## Done
 
 - add eslint
